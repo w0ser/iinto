@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff6ff;
+    color: #2a4a5c;
+    font-size: small;
+}
+
+.container {
+    height: 800px;
+    width: 1250px;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 30px #afafaf;
+    display: flex;
+    flex: row;
+}
+
+.icon {
+    fill: white;
+    height: 25px;
+    width: 25px;
+    padding: 0 20px 0 0;
+}
+
+.product {
+    padding: 20px 0 0 50px;
+}
+
+.btns {
+    display: flex;
+    padding: 10px 0 0 0;
+}
+
+.btn-fb {
+    width: 230px;
+    background-color: #255a9b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+.btn-ln {
+    margin-left: 20px;
+    width: 230px;
+    background-color: #0076b6;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+.header2 {
+    padding: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header2::before {
+    content: "";
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    width: 20%;
+    left: -10px;
+    height: 2px;
+    background-color: #afafaf;
+}
+
+.header2::after {
+    content: "";
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    width: 20%;
+    right: -10px;
+    height: 2px;
+    background-color: #afafaf;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 20px 0;
+}
+
+input[type=text] {
+    height: 45px;
+    width: 260px;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 15px;
+} 
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.product2 {
+    color: #afafaf;
+    box-shadow: 5px 5px 10px #eeeeee;
+    border-radius: 4px;
+    font-size: 11pt;
+    width: 250px;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+}
+
+.checkbox {
+    color: #afafaf;
+    font-size: 11pt;
+    padding: 20px 0 20px 0;
+}
+
+.btn {
+    width: 230px;
+    height: 25px;
+    background-color: #255a9b;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 15px;;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+}
